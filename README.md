@@ -1,24 +1,34 @@
-# README
+# QRCode Scanner
+This application is  the backend to the [https://github.com/njugunaemilly/QRScanner-Frontend](https://github.com/njugunaemilly/QRScanner-Frontend) applicatio.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Get Started
+Create a ruby on rails application: 
+### `rails new qr_code_scanner_api --api --database=postgresql`
 
-Things you may want to cover:
+Switch directories to your rails application
 
-* Ruby version
+### cd qr_code_scanner_api
 
-* System dependencies
+Once in the directory, open your preferred IDE
 
-* Configuration
+To your gem file, add the cors gem  and run the command to install it:
+### gem-cors 
+on your gem file and then run
 
-* Database creation
+### `bundle install`
 
-* Database initialization
+Proceed to create your models and controllers using the following commands in your terminal:
 
-* How to run the test suite
+### `rails generate model ScannedCode data:text`
+### `rails db:migrate`
 
-* Services (job queues, cache servers, search engines, etc.)
+### `rails generate controller QrCodes`
 
-* Deployment instructions
+## Start Server 
+To start your server run the following command on your terminal:
 
-* ...
+### `rails s` 
+
+## Technologies Used
+Ruby on Rails 
+PostgeSQL
