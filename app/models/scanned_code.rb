@@ -1,0 +1,2 @@
+class ScannedCode < ApplicationRecord
+end
