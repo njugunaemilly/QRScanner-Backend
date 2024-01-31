@@ -1,5 +1,5 @@
 # QRCode Scanner
-This application is  the backend to the [https://github.com/njugunaemilly/QRScanner-Frontend](https://github.com/njugunaemilly/QRScanner-Frontend) applicatio.
+This application is  the backend to the [https://github.com/njugunaemilly/QRScanner-Frontend](https://github.com/njugunaemilly/QRScanner-Frontend) application.
 
 ## Get Started
 Create a ruby on rails application: 
